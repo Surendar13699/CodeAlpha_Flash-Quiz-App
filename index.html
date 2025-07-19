@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flash Quiz App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Flash Quiz</h1>
+        <div id="quiz" class="quiz-container">
+            <h2 id="question">Question will appear here</h2>
+            <div id="options" class="options"></div>
+            <button id="nextBtn" class="next-btn" disabled>Next Question</button>
+        </div>
+        <div id="result" class="result-container" style="display: none;">
+            <h2>Your Score: <span id="score"></span></h2>
+            <button id="restartBtn">Restart Quiz</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
